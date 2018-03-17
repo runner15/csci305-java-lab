@@ -1,0 +1,22 @@
+Zachariah Fahsi
+CSCI 305
+Spring 2018
+Lab Questions
+=======================
+1. In the playing loop, it will set a variable in the Player class to what was just played by the other person.  This will be used on every play, except the first one, where it will play rock.  The LastPlayBot will just return what Element was in the last variable, unless it is null, where it will just pick rock.
+
+2. MyBot is similar to LastPlayBot, as it uses what was last played by the opponent. Instead of copying what was played, it will randomly pick one of two throws that would have beaten what was thrown last round by the opponent, in hopes that the opponent picks the same winning throw twice. 
+
+3. 
+
+4. I am always able to beat the StupidBot, IterativeBot, LastPlayBot, and MyBot.  The RandomBot has about a 50% win rate, which is what is expected.
+
+5. 
+
+6. I like that is is easy to read, and an easy language to use.
+
+7. I don’t like how static and no-static classes and functions work together
+
+8. This was a fun lab to figure out, it did not require me to learn any large new programming concepts, but it did force me to figure out the logic of the game, which is what I like about programming.
+
+9. 7 
