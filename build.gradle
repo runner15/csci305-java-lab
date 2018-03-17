@@ -37,3 +37,6 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'csci305.javalab.RPSLS'
 
+run{
+ standardInput = System.in
+}

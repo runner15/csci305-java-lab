@@ -18,14 +18,24 @@ static int win, tie, lose;
         Player[] allPlayers = {new Human("Human"),new StupidBot("StupidBot"),
             new RandomBot("RandomBot"),new IterativeBot("IterativeBot"),
             new LastPlayBot("LastPlayBot"),new MyBot("MyBot")};
+
         System.out.println("Welcome to Rock, Paper, Scissors, Lizard, Spock, "
                 + "implemented by Zachariah Fahsi.\n\nPlease choose two players:"
                 + "\n(1) Human\n(2) StupidBot\n(3) RandomBot\n(4) IterativeBot"
                 + "\n(5) LastPlayBot\n(6) MyBot");
-        System.out.print("Select player 1: ");
-        int player1 = reader.nextInt();
-        System.out.print("Select player 2: ");
-        int player2 = reader.nextInt();
+        int player1 = -1, player2 = -1;
+        while(player1 < 1 || player1 > 6) {
+            System.out.print("Select player 1: ");
+            player1 = reader.nextInt();
+            if(player1 < 1 || player1 > 6)
+                System.out.println("Invalid player. Please pick again.");
+        }
+        while(player2 < 1 || player2 > 6) {
+            System.out.print("Select player 2: ");
+            player2 = reader.nextInt();
+            if(player2 < 1 || player2 > 6)
+                System.out.println("Invalid player. Please pick again.");
+        }
         Player p1 = allPlayers[player1-1];
         Player p2 = allPlayers[player2-1];
         for (int i = 0; i < 5; i++) {
