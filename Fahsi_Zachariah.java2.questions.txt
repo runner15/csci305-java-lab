@@ -17,6 +17,6 @@ Lab Questions
 
 7. I don’t like how static and no-static classes and functions work together
 
-8. This was a fun lab to figure out, it did not require me to learn any large new programming concepts, but it did force me to figure out the logic of the game, which is what I like about programming.
+8. This was a fun lab to figure out, it did not require me to learn any large new programming concepts, but it did force me to figure out the logic of the game, which is what I like about programming.  Gradle was harder to use, but once I figured it out it was good.  I do not see the point of Gradle yet, but it seems useful, so maybe I will find a use in the future.
 
 9. 7 

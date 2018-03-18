@@ -13,6 +13,8 @@ public abstract class Element {
     public String getName() {
         return name;
     }
+    // For each compareTo class, it compares to the 2 Elements it beats, and the same element
+    // This will know if it wins, ties, or loses
     public abstract String compareTo(Element el);
 }
 
