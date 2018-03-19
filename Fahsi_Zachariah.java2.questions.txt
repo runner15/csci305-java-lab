@@ -7,11 +7,40 @@ Lab Questions
 
 2. MyBot is similar to LastPlayBot, as it uses what was last played by the opponent. Instead of copying what was played, it will randomly pick one of two throws that would have beaten what was thrown last round by the opponent, in hopes that the opponent picks the same winning throw twice. 
 
-3. 
+3. Java’s type system involves not only classes and primitive types, but also other kinds of reference type that are related to the basic concept of a class, but which differ in some way, and are usually treated in a special way by javac or the JVM.
+
+We have already met arrays and classes, two of Java’s most widely used kinds of reference type. This chapter starts by discussing another very important kind of reference type—interfaces. We then move on to discuss Java’s generics, which have a major role to play in Java’s type system. With these topics under our belts, we can discuss the differences between compile-time and runtime types in Java.
+
+To complete the full picture of Java’s reference types, we look at specialized kinds of classes and interfaces—known as enums and annotations. We conclude the chapter by looking at nested types and finally the new lambda expressions functionality introduced in Java 8.
+- From safaribooksonline.com
+
+There are two main differences between dynamic typing and static typing that you should be aware of when writing transformation scripts.
+First, dynamically-typed languages perform type checking at runtime, while statically typed languages perform type checking at compile time. This means that scripts written in dynamically-typed languages (like Groovy) can compile even if they contain errors that will prevent the script from running properly (if at all). If a script written in a statically-typed language (such as Java) contains errors, it will fail to compile until the errors have been fixed.
+Second, statically-typed languages require you to declare the data types of your variables before you use them, while dynamically-typed languages do not.
+- From docs.oracle.com
+
+Java, Pascal, Ada and C require all variables to have a declared type, and support the use of explicit casts of arithmetic values to other arithmetic types. Java, C#, Ada and Pascal are sometimes said to be more strongly typed than C, a claim that is probably based on the fact that C supports more kinds of implicit conversions, and C also allows pointer values to be explicitly cast while Java and Pascal do not. Java itself may be considered more strongly typed than Pascal as manners of evading the static type system in Java are controlled by the Java virtual machine's type system. C# and VB.NET are similar to Java in that respect, though they allow disabling of dynamic type checking by explicitly putting code segments in an "unsafe context". Pascal's type system has been described as "too strong", because the size of an array or string is part of its type, making some programming tasks very difficult.
+— from wikipedia.com
+
+Firstly Java is a strongly typed language i.e. before using any data we need to tell the complier of what data type this data will be.
+In simple words we need to declare the data type of the variable.
+Basically there are three type of data types:
+Primitive data types
+Derived data types
+User defined data types
+Primitive data types are the general and fundamental data types that we have in Java and those are byte, short, int, long, float, double, char, boolean.
+Derived data types are those that are made by using any other data type for example, arrays.
+User defined data types are those that user / programmer himself defines. For example, classes, interfaces.
+In very-very simple words I can say,
+int a
+Here a is a variable of int data type.
+MyClass obj
+Here obj is a variable of data type MyClass and we call them reference variables as they can be used to store the reference to the object of that class.
+— From stackoverflow.com
 
 4. I am always able to beat the StupidBot, IterativeBot, LastPlayBot, and MyBot.  The RandomBot has about a 50% win rate, which is what is expected.
 
-5. 
+5. Using the Normal Form game, there is not a strategy that will win this game, as each possibility has a ~1/5 chance of winning, which does not lead to game theory.  Most of the game theory for this game will be phycological, which does not lead it self to Normal Form game.
 
 6. I like that is is easy to read, and an easy language to use.
 
@@ -20,3 +49,5 @@ Lab Questions
 8. This was a fun lab to figure out, it did not require me to learn any large new programming concepts, but it did force me to figure out the logic of the game, which is what I like about programming.  Gradle was harder to use, but once I figured it out it was good.  I do not see the point of Gradle yet, but it seems useful, so maybe I will find a use in the future.
 
 9. 7 
+
+10. The only experience with Java before this lab were the other classes that used Java at MSU.
